@@ -142,7 +142,7 @@ public class ImagesGridAdapter extends BaseAdapter implements UndoBar.Listener {
     private void shareImage(int position) {
         Intent sendIntent = new Intent();
         sendIntent.setAction(Intent.ACTION_SEND);
-        sendIntent.putExtra(Intent.EXTRA_TEXT, data.get(position).getPath());
+        sendIntent.putExtra(Intent.EXTRA_TEXT, data.get(position).getUrl());
         sendIntent.setType("text/plain");
         activity.startActivity(sendIntent);
     }
