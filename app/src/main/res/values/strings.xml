@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HumanityUI</string>
+    <string name="title_activity_main">GridActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+</resources>

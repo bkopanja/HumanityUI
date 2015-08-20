@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/ivDetailsImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tvImageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/picker"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"/>
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/pallete_background"
+            android:padding="1dp">
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/viewColor1" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/viewColor2" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/viewColor3" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/viewColor4" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/viewColor5" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/viewColor6" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
